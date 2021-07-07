@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Extensions.Options;
+using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -21,10 +22,10 @@ namespace Panosen.WxMini.Api
         /// </summary>
         /// <param name="httpClientFactory"></param>
         /// <param name="options"></param>
-        public JscodeToSession(IHttpClientFactory httpClientFactory, WechatOptions options)
+        public JscodeToSession(IHttpClientFactory httpClientFactory, IOptions<WechatOptions> options)
         {
             this.httpClientFactory = httpClientFactory;
-            this.options = options;
+            this.options = options.Value;
         }
 
         /// <summary>
