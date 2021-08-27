@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31423.177
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.WxMini.Api", "Panosen.WxMini.Api\Panosen.WxMini.Api.csproj", "{6E318D52-90F2-497A-8078-15F2E801A633}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panosen.WxMini.Api", "Panosen.WxMini.Api\Panosen.WxMini.Api.csproj", "{6E318D52-90F2-497A-8078-15F2E801A633}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.WxMini.Api.MSTest", "Panosen.WxMini.Api.MSTest\Panosen.WxMini.Api.MSTest.csproj", "{28BBA03B-9B0A-442B-B800-C9A25BA1D9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Panosen.WxMini.Api.MSTest", "Panosen.WxMini.Api.MSTest\Panosen.WxMini.Api.MSTest.csproj", "{28BBA03B-9B0A-442B-B800-C9A25BA1D9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.Github.Api", "Panosen.Github.Api\Panosen.Github.Api.csproj", "{38C81D1A-2162-4FA6-A3C6-48F491416086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panosen.Github.Api.MSTest", "Panosen.Github.Api.MSTest\Panosen.Github.Api.MSTest.csproj", "{7ED2B703-66EC-416B-AC6F-123363451D8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{28BBA03B-9B0A-442B-B800-C9A25BA1D9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28BBA03B-9B0A-442B-B800-C9A25BA1D9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28BBA03B-9B0A-442B-B800-C9A25BA1D9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C81D1A-2162-4FA6-A3C6-48F491416086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C81D1A-2162-4FA6-A3C6-48F491416086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C81D1A-2162-4FA6-A3C6-48F491416086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C81D1A-2162-4FA6-A3C6-48F491416086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED2B703-66EC-416B-AC6F-123363451D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED2B703-66EC-416B-AC6F-123363451D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED2B703-66EC-416B-AC6F-123363451D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED2B703-66EC-416B-AC6F-123363451D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
